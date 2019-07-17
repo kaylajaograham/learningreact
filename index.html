@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>React Hello World</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -17,11 +18,13 @@
     </script>
 
     <script type="text/babel">
-        function App() { return (
+        function App() { const resumeOwner = 'FAKENEWS'; return (
+
         <div>
             <header>
-                <h1>Sally Student Resume</h1>
-                <img src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" width="200" height="200" alt="Sally Student"></img>
+                <h1>{resumeOwner} Resume</h1>
+                <img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0MTU0MTc3NzkzMTA3MzU1/beyonce-attends-tidal-x-1015-on-october-15-2016-in-new-york-city-photo-by-theo-wargogetty-images-for-tidal-sqaure.jpg" width="200"
+                    height="200" alt="Sally Student"></img>
             </header>
             <main>
                 <section>

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, Verdana;
+    margin: 5px;
+    line-height: 1.5cm;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: lightseagreen;
+    font-size: 50px;
+}
+
+h2 {
+    color: lightseagreen;
+}
+
+section,
+section p {
+    padding-bottom: 30px;
+}
+
+address {
+    text-align: center;
+    background-color: lightgray;
+}
+
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+    * {
+        line-height: 1.2cm;
+    }
+    section,
+    section p {
+        padding-bottom: 15px;
+    }
+    address {
+        background-color: lightgray;
+    }
+}
